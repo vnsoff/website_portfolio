@@ -17,9 +17,9 @@ const About = () => {
     };
 
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center h-full lg:py-52 xl:py-36 sm:py-72 lg:mt-0 bg-custom-bg-color">
-            <div className="max-w-screen-md px-8 mb-8 lg:mb-0 lg:mr-8 relative">
-                <h1 className="text-4xl font-bold mb-4 text-zinc-200" style={spaceGroteskBoldStyle}>
+        <div id="about" className="flex flex-col lg:flex-row items-center justify-center bg-custom-bg-color px-12 pt-28 pb-28 sm:pt-32 md:pt-48 lg:pt-48">
+            <div className="max-w-screen-md relative ">
+                <h1 className="text-4xl font-bold text-zinc-200" style={spaceGroteskBoldStyle}>
                     Hi, I'm Vanessa Christoff
                 </h1>
                 <p className="text-xl mb-8 text-zinc-400" style={spaceGroteskRegularStyle}>
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
             <div className="py-12 max-w-screen-md px-8 relative animate-bounce-custom">
-                <div className=" hover:scale-105 rounded-full overflow-hidden ring-2 ring-purple-500">
+                <div className="hover:scale-105 rounded-full overflow-hidden ring-2 ring-purple-500">
                     <img
                         src={profileImage}
                         alt="Profile"

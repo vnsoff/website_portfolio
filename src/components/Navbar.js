@@ -1,117 +1,45 @@
 // src/components/Navbar.js
 import React, { useState } from 'react';
-import { MobileNav, Typography, IconButton } from "@material-tailwind/react";
-import About from './About';
-import Projects from './Projects';
-import Experience from './Experience';
-import Contact from './Contact';
-import Skills from './Skills';
-
-const spaceGroteskRegularStyle = {
-    fontFamily: 'Space Grotesk Regular, sans-serif',
-};
+import { Link } from 'react-scroll';
+import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
-    const [openNav, setOpenNav] = useState(false);
-    const [currentPage, setCurrentPage] = useState('About');
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-    const pages = {
-        'About': <About />,
-        'Skills': <Skills />,
-        'Projects': <Projects />,
-        'Experience': <Experience />,
-        'Contact': <Contact />,
-    };
-
-    const handlePageChange = (page) => {
-        setCurrentPage(page);
-        setOpenNav(false);
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!isMobileMenuOpen);
     };
 
     return (
-        <div className="bg-custom-bg-color sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-8 lg:px-8 lg:py-4">
-            <div className="flex items-center justify-between w-full mx-auto text-zinc-200">
-                <div className="flex items-center gap-4 mx-auto">
-                    {/* Add "cursor-pointer" class to make sure that the Typography components are clickable */}
-                    <Typography
-                        as="button"
-                        onClick={() => handlePageChange('About')}
-                        className="p-1 font-normal cursor-pointer"
-                        style={spaceGroteskRegularStyle}
+        <nav className="bg-custom-bg-color p-4 fixed w-full z-10">
+            <div className="container mx-auto flex items-center justify-center"> {/* Centering the content */}
+                <div className="md:hidden">
+                    <button
+                        onClick={toggleMobileMenu}
+                        className="text-white focus:outline-none"
                     >
-                        About
-                    </Typography>
-                    <Typography
-                        as="button"
-                        onClick={() => handlePageChange('Skills')}
-                        className="p-1 font-normal cursor-pointer"
-                        style={spaceGroteskRegularStyle}
-                    >
-                        Skills
-                    </Typography>
-                    <Typography
-                        as="button"
-                        onClick={() => handlePageChange('Projects')}
-                        className="p-1 font-normal cursor-pointer"
-                        style={spaceGroteskRegularStyle}
-                    >
-                        Projects
-                    </Typography>
-                    <Typography
-                        as="button"
-                        onClick={() => handlePageChange('Experience')}
-                        className="p-1 font-normal cursor-pointer"
-                        style={spaceGroteskRegularStyle}
-                    >
-                        Experience
-                    </Typography>
-                    <Typography
-                        as="button"
-                        onClick={() => handlePageChange('Contact')}
-                        className="p-1 font-normal cursor-pointer"
-                        style={spaceGroteskRegularStyle}
-                    >
-                        Contact
-                    </Typography>
+                        <FaBars />
+                    </button>
                 </div>
-                <IconButton
-                    variant="text"
-                    className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-                    ripple={false}
-                    onClick={(e) => {
-                        e.stopPropagation(); // Prevent event propagation
-                        setOpenNav(!openNav);
-                    }}
-                >
-                    {openNav ? (
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            className="h-6 w-6"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    ) : (
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    )}
-                </IconButton>
-
+                <div className={`md:flex ${isMobileMenuOpen ? 'block' : 'hidden'} items-center`}>
+                    <Link to="about" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                        About
+                    </Link>
+                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                        Experience
+                    </Link>
+                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </div>
             </div>
-            <MobileNav open={openNav}>
-                {pages[currentPage]}
-            </MobileNav>
-        </div>
+        </nav>
     );
 };
 
