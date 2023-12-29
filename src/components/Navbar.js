@@ -5,6 +5,7 @@ import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
+import Skills from './Skills';
 
 const spaceGroteskRegularStyle = {
     fontFamily: 'Space Grotesk Regular, sans-serif',
@@ -16,6 +17,7 @@ const Navbar = () => {
 
     const pages = {
         'About': <About />,
+        'Skills': <Skills />,
         'Projects': <Projects />,
         'Experience': <Experience />,
         'Contact': <Contact />,
@@ -27,19 +29,48 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-custom-bg-color sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-4 lg:px-8 lg:py-4">
+        <div className="bg-custom-bg-color sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-8 lg:px-8 lg:py-4">
             <div className="flex items-center justify-between w-full mx-auto text-zinc-200">
                 <div className="flex items-center gap-4 mx-auto">
-                    <Typography as="button" onClick={() => handlePageChange('About')} className="p-1 font-normal" style={spaceGroteskRegularStyle}>
+                    {/* Add "cursor-pointer" class to make sure that the Typography components are clickable */}
+                    <Typography
+                        as="button"
+                        onClick={() => handlePageChange('About')}
+                        className="p-1 font-normal cursor-pointer"
+                        style={spaceGroteskRegularStyle}
+                    >
                         About
                     </Typography>
-                    <Typography as="button" onClick={() => handlePageChange('Projects')} className="p-1 font-normal" style={spaceGroteskRegularStyle}>
+                    <Typography
+                        as="button"
+                        onClick={() => handlePageChange('Skills')}
+                        className="p-1 font-normal cursor-pointer"
+                        style={spaceGroteskRegularStyle}
+                    >
+                        Skills
+                    </Typography>
+                    <Typography
+                        as="button"
+                        onClick={() => handlePageChange('Projects')}
+                        className="p-1 font-normal cursor-pointer"
+                        style={spaceGroteskRegularStyle}
+                    >
                         Projects
                     </Typography>
-                    <Typography as="button" onClick={() => handlePageChange('Experience')} className="p-1 font-normal" style={spaceGroteskRegularStyle}>
+                    <Typography
+                        as="button"
+                        onClick={() => handlePageChange('Experience')}
+                        className="p-1 font-normal cursor-pointer"
+                        style={spaceGroteskRegularStyle}
+                    >
                         Experience
                     </Typography>
-                    <Typography as="button" onClick={() => handlePageChange('Contact')} className="p-1 font-normal" style={spaceGroteskRegularStyle}>
+                    <Typography
+                        as="button"
+                        onClick={() => handlePageChange('Contact')}
+                        className="p-1 font-normal cursor-pointer"
+                        style={spaceGroteskRegularStyle}
+                    >
                         Contact
                     </Typography>
                 </div>
@@ -47,7 +78,10 @@ const Navbar = () => {
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
                     ripple={false}
-                    onClick={() => setOpenNav(!openNav)}
+                    onClick={(e) => {
+                        e.stopPropagation(); // Prevent event propagation
+                        setOpenNav(!openNav);
+                    }}
                 >
                     {openNav ? (
                         <svg
@@ -72,6 +106,7 @@ const Navbar = () => {
                         </svg>
                     )}
                 </IconButton>
+
             </div>
             <MobileNav open={openNav}>
                 {pages[currentPage]}

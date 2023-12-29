@@ -23,12 +23,12 @@ const About = () => {
                     Hi, I'm Vanessa Christoff
                 </h1>
                 <p className="text-xl mb-8 text-zinc-400" style={spaceGroteskRegularStyle}>
-                    I'm a{' '}
+                    I'm a{''}
                     <span className="relative inline-block">
                         <span className="group cursor-pointer text-purple-500 px-2 py-1 rounded-md" style={spaceGroteskBoldStyle}>
                             Software Engineer
                         </span>
-                    </span>{' '}
+                    </span>{''}
                     and I work in the security and surveillance industry, as a web applications full-stack developer.
                     My main stack includes PHP, CodeIgniter4, JavaScript, and jQuery. I've also worked on projects that require other languages such as Python and C#.
                     I'm specializing in full-stack web applications, with a particular emphasis on backend development.

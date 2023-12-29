@@ -10,24 +10,24 @@ module.exports = {
       keyframes: {
         shimmer: {
             '0%%': {
-              transform: 'translateX(-20%)',
+              transform: 'translateY(-20%)',
             },
             '50%': {
-              transform: 'translateX(20%)',
+              transform: 'translateY(20%)',
             },
             '100%': {
-              transform: 'translateX(0%)',
+              transform: 'translateY(0%)',
             },
         },
         reverseShimmer: {
             '0%': {
-              transform: 'translateX(20%)',
+              transform: 'translateY(20%)',
             },
             '50%': {
-              transform: 'translateX(-20%)',
+              transform: 'translateY(-20%)',
             },
             '100%': {
-              transform: 'translateX(0%)',
+              transform: 'translateY(0%)',
             },
         },
         'bounce-custom': {
