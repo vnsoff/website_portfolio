@@ -7,19 +7,17 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Skills from './components/Skills';
 
 const App = () => {
     return (
         <div>
-            <Router>
-                <Navbar />
-                <Routes>
-                    <Route path="/" element={<About />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/experience" element={<Experience />} />
-                    <Route path="/contact" element={<Contact />} />
-                </Routes>
-            </Router>
+            <Navbar />
+            <About />
+            <Skills />
+            <Projects />
+            <Experience />
+            <Contact />
             <Footer />
         </div>
     );

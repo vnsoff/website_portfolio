@@ -17,12 +17,12 @@ const About = () => {
     };
 
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center h-screen mt-32 lg:mt-0 bg-custom-bg-color">
+        <div className="flex flex-col lg:flex-row items-center justify-center h-full lg:py-52 xl:py-36 sm:py-72 lg:mt-0 bg-custom-bg-color">
             <div className="max-w-screen-md px-8 mb-8 lg:mb-0 lg:mr-8 relative">
-                <h1 className="text-6xl font-bold mb-4 text-zinc-200" style={spaceGroteskBoldStyle}>
+                <h1 className="text-4xl font-bold mb-4 text-zinc-200" style={spaceGroteskBoldStyle}>
                     Hi, I'm Vanessa Christoff
                 </h1>
-                <p className="text-2xl mb-8 text-zinc-400" style={spaceGroteskRegularStyle}>
+                <p className="text-xl mb-8 text-zinc-400" style={spaceGroteskRegularStyle}>
                     I'm a{' '}
                     <span className="relative inline-block">
                         <span className="group cursor-pointer text-purple-500 px-2 py-1 rounded-md" style={spaceGroteskBoldStyle}>
@@ -31,7 +31,7 @@ const About = () => {
                     </span>{' '}
                     and I work in the security and surveillance industry, as a web applications full-stack developer.
                     My main stack includes PHP, CodeIgniter4, JavaScript, and jQuery. I've also worked on projects that require other languages such as Python and C#.
-                    My focus lies in the development of full-stack applications, with a particular emphasis on backend development.
+                    I'm specializing in full-stack web applications, with a particular emphasis on backend development.
                 </p>
                 <div className="flex items-center">
                     <button className="text-2xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-3 px-6 rounded-full flex items-center justify-center transform hover:scale-105 transition-transform">
@@ -39,8 +39,8 @@ const About = () => {
                     </button>
                 </div>
             </div>
-            <div className="max-w-screen-md px-8 relative">
-                <div className="rounded-full overflow-hidden ring-2 ring-purple-500">
+            <div className="py-12 max-w-screen-md px-8 relative animate-bounce-custom">
+                <div className=" hover:scale-105 rounded-full overflow-hidden ring-2 ring-purple-500">
                     <img
                         src={profileImage}
                         alt="Profile"
