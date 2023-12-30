@@ -17,10 +17,11 @@ const App = () => {
             <Skills />
             <Experience />
             <Contact />
-            {/*<Projects />*/}
+            <Projects />
             <Footer />
         </div>
     );
 };
 
 export default App;
+
