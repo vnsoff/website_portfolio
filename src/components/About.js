@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
             <div className="py-12 max-w-screen-md px-8 relative animate-bounce-custom">
-                <div className="hover:scale-105 rounded-full overflow-hidden ring-2 ring-purple-500">
+                <div className="hover:scale-105 rounded-full overflow-hidden ring-8 ring-purple-500">
                     <img
                         src={profileImage}
                         alt="Profile"

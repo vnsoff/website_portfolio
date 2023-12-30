@@ -28,13 +28,13 @@ const Navbar = () => {
                     <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
                         Skills
                     </Link>
-                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                    <Link to="experience" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
                         Experience
                     </Link>
-                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                    <Link to="projects" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
                         Projects
                     </Link>
-                    <Link to="skills" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
+                    <Link to="contact" className="text-white text-xl hover:text-gray-300 px-4 py-2 inline-block" smooth={true} duration={500}>
                         Contact
                     </Link>
                 </div>

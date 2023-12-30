@@ -40,9 +40,20 @@ module.exports = {
             animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
           },
         },
+        'bounce-custom-2': {
+          '0%, 100%': {
+            transform: 'translateY(50%)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
       },
       animation: {
         'bounce-custom': 'bounce-custom 5s infinite',
+        'bounce-custom-2': 'bounce-custom-2 1s infinite',
         shimmer: 'shimmer 2s ease-in-out infinite',
         reverseShimmer: 'shimmer 2s ease-in-out infinite',
       },
