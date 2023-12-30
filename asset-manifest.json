@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/website_portfolio/static/css/main.93ccebbc.css",
-    "main.js": "/website_portfolio/static/js/main.d590e016.js",
+    "main.css": "/website_portfolio/static/css/main.548087a3.css",
+    "main.js": "/website_portfolio/static/js/main.d2a6ecf5.js",
     "static/media/image-url.jpg": "/website_portfolio/static/media/image-url.0ac7e402a5999639e01e.jpg",
     "static/media/SpaceGrotesk-Regular.ttf": "/website_portfolio/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
     "static/media/SpaceGrotesk-Bold.ttf": "/website_portfolio/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
     "index.html": "/website_portfolio/index.html",
-    "main.93ccebbc.css.map": "/website_portfolio/static/css/main.93ccebbc.css.map",
-    "main.d590e016.js.map": "/website_portfolio/static/js/main.d590e016.js.map"
+    "main.548087a3.css.map": "/website_portfolio/static/css/main.548087a3.css.map",
+    "main.d2a6ecf5.js.map": "/website_portfolio/static/js/main.d2a6ecf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.93ccebbc.css",
-    "static/js/main.d590e016.js"
+    "static/css/main.548087a3.css",
+    "static/js/main.d2a6ecf5.js"
   ]
 }
