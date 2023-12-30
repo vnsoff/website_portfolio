@@ -7,7 +7,10 @@
     <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <workItem from="1703822602418" duration="9000" />
       <workItem from="1703861293083" duration="14449000" />
       <workItem from="1703908384981" duration="1557000" />
-      <workItem from="1703935991275" duration="21207000" />
+      <workItem from="1703935991275" duration="22477000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703959539828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Projects.js component">
+      <option name="closed" value="true" />
+      <created>1703960158195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703960158195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,7 @@
     <MESSAGE value="Responsive layout fix About.js Skills.js&#10;Navbar.js paths fixed" />
     <MESSAGE value="Build settings" />
     <MESSAGE value="Icon changed&#10;Added icons in Experience.js&#10;Experience.js component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Icon changed&#10;Added icons in Experience.js&#10;Experience.js component" />
+    <MESSAGE value="Projects.js component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projects.js component" />
   </component>
 </project>

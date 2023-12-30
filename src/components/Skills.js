@@ -39,8 +39,8 @@ const spaceGroteskBoldStyle = {
 
 const SkillCard = ({ title, skills, shimmerClass }) => {
     return (
-        <div id="skills" className={`w-full sm:w-6/12 lg:w-4/12 mb-20 text-gray-200 ${shimmerClass}`}>
-            <div className={`p-6 transition duration-300 ease-in-out transform hover:bg-purple-600 hover:border-purple-600 border-t-8 border-b-8 border-solid border-purple-500`}>
+        <div id="skills" className={`w-full sm:w-6/12 lg:w-4/12  text-gray-200 ${shimmerClass}`}>
+            <div className={`p-6 mb-20 transition duration-300 ease-in-out transform hover:bg-purple-600 hover:border-purple-600 border-t-8 border-b-8 border-solid border-purple-500`}>
                 <div className="font-bold text-xl mb-4 text-center relative" style={spaceGroteskBoldStyle}>
                     {title}
                 </div>
