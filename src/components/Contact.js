@@ -1,11 +1,39 @@
 // src/components/Contact.js
 
-import React from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
-    const handleSubmit = (e) => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle form submission logic here
+
+        try {
+            const response = await fetch('http://localhost:3001/api/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                console.log('Email sent successfully');
+                setFormData({ name: '', email: '', message: '' });
+            } else {
+                console.error('Failed to send email', response.status, response.statusText);
+            }
+        } catch (error) {
+            console.error('Error sending email:', error);
+        }
+    };
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     return (
@@ -15,7 +43,7 @@ const Contact = () => {
                     Contact
                 </h2>
                 <div className="flex justify-center">
-                    <form onSubmit={handleSubmit} className="w-full max-w-lg p-8 rounded-lg shadow-lg">
+                    <form onSubmit={handleSubmit} className="w-full max-w-lg p-8 rounded-lg">
                         <div className="mb-4">
                             <label
                                 htmlFor="name"
@@ -27,6 +55,8 @@ const Contact = () => {
                                 type="text"
                                 id="name"
                                 name="name"
+                                value={formData.name}
+                                onChange={handleChange}
                                 className="w-full p-3 rounded bg-gray-200 text-gray-800 border border-gray-700 focus:outline-none focus:border-indigo-500"
                                 required
                             />
@@ -42,6 +72,8 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name="email"
+                                value={formData.email}
+                                onChange={handleChange}
                                 className="w-full p-3 rounded bg-gray-200 text-gray-800 border border-gray-700 focus:outline-none focus:border-indigo-500"
                                 required
                             />
@@ -57,6 +89,8 @@ const Contact = () => {
                                 id="message"
                                 name="message"
                                 rows="4"
+                                value={formData.message}
+                                onChange={handleChange}
                                 className="w-full p-3 rounded bg-gray-200 text-gray-800 border border-gray-700 focus:outline-none focus:border-indigo-500"
                                 required
                             ></textarea>
