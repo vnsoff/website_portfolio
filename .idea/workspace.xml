@@ -5,59 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/.bin/mime" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/accepts/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/accepts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/call-bind/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/content-disposition/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/content-type/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/debug/.coveralls.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/depd/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/etag/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/express/node_modules/body-parser/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/express/node_modules/body-parser/lib/read.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/express/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/finalhandler/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/fresh/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/function-bind/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/gopd/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/has-property-descriptors/.github/FUNDING.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/has-property-descriptors/.nycrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/has-proto/.github/FUNDING.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/has-symbols/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/has-symbols/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/hasown/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/hasown/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/http-errors/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/media-typer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/methods/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/dkim/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/well-known/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/object-inspect/test/fakes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/object-inspect/test/fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/object-inspect/util.inspect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/on-finished/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/parseurl/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/path-to-regexp/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/qs/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/qs/lib/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/qs/test/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/range-parser/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/safe-buffer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/send/node_modules/ms/license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/serve-static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/set-function-length/.github/FUNDING.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/toidentifier/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/type-is/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/utils-merge/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +91,8 @@
       <workItem from="1704051760352" duration="1048000" />
       <workItem from="1704054698659" duration="700000" />
       <workItem from="1704122952653" duration="2038000" />
-      <workItem from="1704150208377" duration="4482000" />
+      <workItem from="1704150208377" duration="4522000" />
+      <workItem from="1704508832049" duration="1105000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -230,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704157711226</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Deploy Build">
+      <option name="closed" value="true" />
+      <created>1704158073903</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704158073903</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +209,7 @@
     <MESSAGE value="Contact.js component" />
     <MESSAGE value="Deploy" />
     <MESSAGE value="Contact.js handle email send" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact.js handle email send" />
+    <MESSAGE value="Deploy Build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy Build" />
   </component>
 </project>

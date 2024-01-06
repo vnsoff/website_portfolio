@@ -34,10 +34,13 @@ const About = () => {
                     I'm specializing in full-stack web applications, with a particular emphasis on backend development.
                 </p>
                 <div className="flex items-center">
-                    <button className="text-2xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-3 px-6 rounded-full flex items-center justify-center transform hover:scale-105 transition-transform">
-                        <span className="mx-4">Check Resume</span>
-                    </button>
+                    <a href="https://drive.google.com/file/d/1ffRRwGGLF2EcM9qc7ZjNeSiH0i9XMiLc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <button className="text-2xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-3 px-6 rounded-full flex items-center justify-center transform hover:scale-105 transition-transform">
+                            <span className="mx-4">Check Resume</span>
+                        </button>
+                    </a>
                 </div>
+
             </div>
             <div className="py-12 max-w-screen-md px-8 relative animate-bounce-custom">
                 <div className="hover:scale-105 rounded-full overflow-hidden ring-8 ring-purple-500">
