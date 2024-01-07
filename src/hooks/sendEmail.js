@@ -1,4 +1,5 @@
 // src/hooks/sendEmail.js
+
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -10,10 +11,10 @@ const useEmailSender = () => {
     const sendEmail = async (formData) => {
         try {
             const response = await axios.post(
-                'https://api.resend.com/emails',
+                '/.netlify/functions/sendEmail',  // Updated URL
                 {
                     from: `Contact Form <${formData.email}>`,
-                    to: ['vanfc.dev@gmail.com'], // Replace with your email
+                    to: ['vanfc.dev@gmail.com'],
                     subject: 'New Contact Form Submission',
                     html: `<p>Name: ${formData.name}</p><p>Email: ${formData.email}</p><p>Message: ${formData.message}</p>`,
                 },
