@@ -1,6 +1,7 @@
 // src/components/Contact.js
 
 import React, { useState } from 'react';
+import useEmailSender from '../../src/hooks/sendEmail';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -9,32 +10,26 @@ const Contact = () => {
         message: '',
     });
 
+    const { sendEmail, emailSent } = useEmailSender();
+
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        try {
-            const response = await fetch('http://localhost:3001/api/send-email', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
+        await sendEmail(formData);
 
-            if (response.ok) {
-                console.log('Email sent successfully');
-                setFormData({ name: '', email: '', message: '' });
-            } else {
-                console.error('Failed to send email', response.status, response.statusText);
-            }
-        } catch (error) {
-            console.error('Error sending email:', error);
+        if (emailSent) {
+            console.log('Email sent successfully');
+            setFormData({ name: '', email: '', message: '' });
+        } else {
+            console.error('Failed to send email');
         }
     };
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
+
 
     return (
         <div id="contact" className="bg-custom-bg-color py-16">
