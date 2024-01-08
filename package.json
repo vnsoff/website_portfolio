@@ -1,6 +1,6 @@
 {
-  "proxy": "http://localhost:3001",
-  "homepage": "https://vnsoff.github.io/website_portfolio/",
+  "proxy": "http://localhost:3000",
+  "homepage": "vanessa-christoff.netlify.app/",
   "name": "website_portfolio",
   "version": "0.1.0",
   "private": true,
