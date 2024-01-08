@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vanessa-christoff.netlify.app/static/css/main.718f31a0.css",
-    "main.js": "/vanessa-christoff.netlify.app/static/js/main.6359a1bc.js",
-    "static/media/img1.PNG": "/vanessa-christoff.netlify.app/static/media/img1.7417c85f34f3269fcd43.PNG",
-    "static/media/img2.PNG": "/vanessa-christoff.netlify.app/static/media/img2.9c2e094a87e6c803f865.PNG",
-    "static/media/image-url.jpg": "/vanessa-christoff.netlify.app/static/media/image-url.0ac7e402a5999639e01e.jpg",
-    "static/media/SpaceGrotesk-Regular.ttf": "/vanessa-christoff.netlify.app/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
-    "static/media/SpaceGrotesk-Bold.ttf": "/vanessa-christoff.netlify.app/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
-    "index.html": "/vanessa-christoff.netlify.app/index.html",
-    "main.718f31a0.css.map": "/vanessa-christoff.netlify.app/static/css/main.718f31a0.css.map",
-    "main.6359a1bc.js.map": "/vanessa-christoff.netlify.app/static/js/main.6359a1bc.js.map"
+    "main.css": "/static/css/main.718f31a0.css",
+    "main.js": "/static/js/main.a0c21c34.js",
+    "static/media/img1.PNG": "/static/media/img1.7417c85f34f3269fcd43.PNG",
+    "static/media/img2.PNG": "/static/media/img2.9c2e094a87e6c803f865.PNG",
+    "static/media/image-url.jpg": "/static/media/image-url.0ac7e402a5999639e01e.jpg",
+    "static/media/SpaceGrotesk-Regular.ttf": "/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
+    "index.html": "/index.html",
+    "main.718f31a0.css.map": "/static/css/main.718f31a0.css.map",
+    "main.a0c21c34.js.map": "/static/js/main.a0c21c34.js.map"
   },
   "entrypoints": [
     "static/css/main.718f31a0.css",
-    "static/js/main.6359a1bc.js"
+    "static/js/main.a0c21c34.js"
   ]
 }
