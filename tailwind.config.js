@@ -67,6 +67,10 @@ module.exports = {
           500: '#6366f1',
         },
       },
+      borderColor: {
+        'custom-border-color': '#201e2b',
+        'alt-border-color': '#292438',
+      },
       textColor: {
         'custom-color': '#242235',
       },

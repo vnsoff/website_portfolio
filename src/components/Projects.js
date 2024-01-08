@@ -1,26 +1,24 @@
 // src/components/Projects.js
 
 import React from 'react';
+import img1 from '../images/img1.PNG';
+import img2 from '../images/img2.PNG';
 
 const Projects = () => {
     const projects = [
         {
-            projectName: 'Project 1',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            technologies: ['React', 'Node.js', 'MongoDB'],
-            thumbnail: 'https://via.placeholder.com/150', // Placeholder image URL
+            projectName: 'Website',
+            description: 'Website for a italian restaurant.',
+            technologies: ['Javascript','React','TailwindCSS'],
+            thumbnail: img1,
+            link: '',
         },
         {
-            projectName: 'Project 2',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            technologies: ['HTML', 'CSS', 'JavaScript'],
-            thumbnail: 'https://via.placeholder.com/150', // Placeholder image URL
-        },
-        {
-            projectName: 'Project 2',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            technologies: ['HTML', 'CSS', 'JavaScript'],
-            thumbnail: 'https://via.placeholder.com/150', // Placeholder image URL
+            projectName: 'Website',
+            description: 'Website for a tech company.',
+            technologies: ['Javascript','HTML','CSS'],
+            thumbnail: img2,
+            link: 'https://vnsoff.github.io/BusinessPage/',  // Specify the link for the first project
         },
     ];
 
@@ -30,13 +28,13 @@ const Projects = () => {
                 <h2 className="text-3xl font-bold mb-8 text-gray-200 text-center">
                     Projects
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20">
                     {projects.map((project, index) => (
                         <div key={index} className="">
                             <div className="p-4 flex flex-col  items-center rounded-lg hover:scale-105 shadow-md bg-purple-700">
                                 <div className="mb-4">
                                     <img
-                                        className="h-52 w-52 object-cover rounded"
+                                        className="h-52 w-52 object-cover rounded "
                                         src={project.thumbnail}
                                         alt={`${project.projectName} Thumbnail`}
                                     />
@@ -60,6 +58,16 @@ const Projects = () => {
                                         </div>
                                     </div>
                                 )}
+                                <div className="mt-4">
+                                    <a
+                                        href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-3 px-6 rounded-full flex items-center justify-center transform hover:scale-105 transition-transform"
+                                    >
+                                        Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}

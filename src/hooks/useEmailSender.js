@@ -1,5 +1,3 @@
-// src/hooks/sendEmail.js
-
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -8,10 +6,13 @@ const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const useEmailSender = () => {
     const [emailSent, setEmailSent] = useState(null);
 
+    // Assuming the Netlify function is deployed to the same domain, adjust the path accordingly
+    const functionUrl = '../../netlify/functions/sendEmail';
+
     const sendEmail = async (formData) => {
         try {
             const response = await axios.post(
-                '/.netlify/functions/sendEmail',  // Updated URL
+                functionUrl,
                 {
                     from: `Contact Form <${formData.email}>`,
                     to: ['vanfc.dev@gmail.com'],

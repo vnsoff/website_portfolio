@@ -1,7 +1,7 @@
 // src/components/Contact.js
 
 import React, { useState } from 'react';
-import useEmailSender from '../../src/hooks/sendEmail';
+import useEmailSender from '../../src/hooks/useEmailSender';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
