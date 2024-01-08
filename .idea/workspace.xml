@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_12_2023_17_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_12_2023_17_25__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useEmailSender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useEmailSender.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1703861293083" duration="14449000" />
       <workItem from="1703908384981" duration="1557000" />
       <workItem from="1703935991275" duration="23119000" />
-      <workItem from="1704686129678" duration="487000" />
+      <workItem from="1704686129678" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -167,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703961825931</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Deploy settings">
+      <option name="closed" value="true" />
+      <created>1704686692029</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704686692030</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +194,7 @@
     <MESSAGE value="Projects.js component fix&#10;Footer.js component&#10;Skills.js component fix" />
     <MESSAGE value="Contact.js component" />
     <MESSAGE value="Deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
+    <MESSAGE value="Deploy settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy settings" />
   </component>
 </project>

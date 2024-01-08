@@ -6,7 +6,6 @@ const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const useEmailSender = () => {
     const [emailSent, setEmailSent] = useState(null);
 
-    // Assuming the Netlify function is deployed to the same domain, adjust the path accordingly
     const functionUrl = '../../netlify/functions/sendEmail';
 
     const sendEmail = async (formData) => {
