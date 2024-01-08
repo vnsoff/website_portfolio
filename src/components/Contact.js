@@ -1,7 +1,7 @@
 // src/components/Contact.js
 
 import React, { useState } from 'react';
-import useEmailSender from '../../src/hooks/useEmailSender';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -10,25 +10,32 @@ const Contact = () => {
         message: '',
     });
 
-    const { sendEmail, emailSent } = useEmailSender();
-
+    const [emailSent, setEmailSent] = useState(null);  // Remove the initial value of false
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        await sendEmail(formData);
+        const serviceID = process.env.REACT_APP_SERVICE_ID;
+        const templateID = process.env.REACT_APP_TEMPLATE_ID;
+        const userID = process.env.REACT_APP_PUBLIC_KEY;
 
-        if (emailSent) {
-            console.log('Email sent successfully');
+        try {
+            const result = await emailjs.sendForm(serviceID, templateID, e.target, userID);
+            console.log(result.text);
             setFormData({ name: '', email: '', message: '' });
-        } else {
-            console.error('Failed to send email');
+            setEmailSent(true);
+        } catch (error) {
+            console.log(error.text);
+            setEmailSent(false);
         }
+
     };
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
+
+
 
 
     return (
@@ -96,6 +103,16 @@ const Contact = () => {
                         >
                             Send Message
                         </button>
+                        {emailSent && (
+                            <p className="text-green-500 text-center mt-3">
+                                Email sent successfully to the user!
+                            </p>
+                        )}
+                        {!emailSent && emailSent !== null && (
+                            <p className="text-red-500 text-center mt-3">
+                                Failed to send email. Please try again.
+                            </p>
+                        )}
                     </form>
                 </div>
             </div>
