@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/website_portfolio/static/css/main.ae7f81b0.css",
-    "main.js": "/website_portfolio/static/js/main.8136849a.js",
-    "static/media/image-url.jpg": "/website_portfolio/static/media/image-url.0ac7e402a5999639e01e.jpg",
-    "static/media/SpaceGrotesk-Regular.ttf": "/website_portfolio/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
-    "static/media/SpaceGrotesk-Bold.ttf": "/website_portfolio/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
-    "index.html": "/website_portfolio/index.html",
-    "main.ae7f81b0.css.map": "/website_portfolio/static/css/main.ae7f81b0.css.map",
-    "main.8136849a.js.map": "/website_portfolio/static/js/main.8136849a.js.map"
+    "main.css": "/vanessa-christoff.netlify.app/static/css/main.718f31a0.css",
+    "main.js": "/vanessa-christoff.netlify.app/static/js/main.6359a1bc.js",
+    "static/media/img1.PNG": "/vanessa-christoff.netlify.app/static/media/img1.7417c85f34f3269fcd43.PNG",
+    "static/media/img2.PNG": "/vanessa-christoff.netlify.app/static/media/img2.9c2e094a87e6c803f865.PNG",
+    "static/media/image-url.jpg": "/vanessa-christoff.netlify.app/static/media/image-url.0ac7e402a5999639e01e.jpg",
+    "static/media/SpaceGrotesk-Regular.ttf": "/vanessa-christoff.netlify.app/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/vanessa-christoff.netlify.app/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
+    "index.html": "/vanessa-christoff.netlify.app/index.html",
+    "main.718f31a0.css.map": "/vanessa-christoff.netlify.app/static/css/main.718f31a0.css.map",
+    "main.6359a1bc.js.map": "/vanessa-christoff.netlify.app/static/js/main.6359a1bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae7f81b0.css",
-    "static/js/main.8136849a.js"
+    "static/css/main.718f31a0.css",
+    "static/js/main.6359a1bc.js"
   ]
 }
