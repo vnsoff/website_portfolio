@@ -1,5 +1,4 @@
 {
-  "proxy": "http://localhost:3000",
   "homepage": "https://vanessa-christoff.netlify.app/",
   "name": "website_portfolio",
   "version": "0.1.0",
