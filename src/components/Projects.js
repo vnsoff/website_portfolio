@@ -11,7 +11,7 @@ const Projects = () => {
             description: 'Website for a italian restaurant.',
             technologies: ['Javascript','React','TailwindCSS'],
             thumbnail: img1,
-            link: '',
+            link: 'https://vnsoff.github.io/website-alba/',
         },
         {
             projectName: 'Website',
