@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website_portfolio//static/css/main.d1da5071.css",
-    "main.js": "/website_portfolio//static/js/main.ac52d84b.js",
+    "main.js": "/website_portfolio//static/js/main.8091db52.js",
     "static/media/img1.PNG": "/website_portfolio//static/media/img1.7417c85f34f3269fcd43.PNG",
     "static/media/img2.PNG": "/website_portfolio//static/media/img2.9c2e094a87e6c803f865.PNG",
     "static/media/image-url.jpg": "/website_portfolio//static/media/image-url.0ac7e402a5999639e01e.jpg",
@@ -9,10 +9,10 @@
     "static/media/SpaceGrotesk-Bold.ttf": "/website_portfolio//static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
     "index.html": "/website_portfolio//index.html",
     "main.d1da5071.css.map": "/website_portfolio//static/css/main.d1da5071.css.map",
-    "main.ac52d84b.js.map": "/website_portfolio//static/js/main.ac52d84b.js.map"
+    "main.8091db52.js.map": "/website_portfolio//static/js/main.8091db52.js.map"
   },
   "entrypoints": [
     "static/css/main.d1da5071.css",
-    "static/js/main.ac52d84b.js"
+    "static/js/main.8091db52.js"
   ]
 }
