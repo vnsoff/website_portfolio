@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/PhpstormProjects/website_portfolio/src/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Dropbox/Dev_Compartilhado/Laragon/www/Siam2.0Integracao&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,6 +84,23 @@
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src\components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,7 +125,15 @@
       <workItem from="1704932245268" duration="1333000" />
       <workItem from="1704934955833" duration="1039000" />
       <workItem from="1704937007164" duration="101000" />
-      <workItem from="1705022193883" duration="1840000" />
+      <workItem from="1705022193883" duration="2044000" />
+      <workItem from="1705024286305" duration="202000" />
+      <workItem from="1705112095129" duration="24000" />
+      <workItem from="1705169024297" duration="3484000" />
+      <workItem from="1707743233747" duration="515000" />
+      <workItem from="1707850158172" duration="324000" />
+      <workItem from="1708883946986" duration="598000" />
+      <workItem from="1709044702512" duration="1134000" />
+      <workItem from="1709077405078" duration="6570000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -230,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704937067250</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Navbar.js hover fix">
+      <option name="closed" value="true" />
+      <created>1705024229570</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705024229570</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +284,7 @@
     <MESSAGE value="Deploy settings" />
     <MESSAGE value="Emailjs settings" />
     <MESSAGE value="Link added in Projects.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link added in Projects.js" />
+    <MESSAGE value="Navbar.js hover fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar.js hover fix" />
   </component>
 </project>
