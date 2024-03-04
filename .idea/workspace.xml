@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -85,7 +88,27 @@
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src\components" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -98,6 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -133,7 +158,12 @@
       <workItem from="1707850158172" duration="324000" />
       <workItem from="1708883946986" duration="598000" />
       <workItem from="1709044702512" duration="1134000" />
-      <workItem from="1709077405078" duration="6570000" />
+      <workItem from="1709077405078" duration="6990000" />
+      <workItem from="1709086218580" duration="12000" />
+      <workItem from="1709086243043" duration="1668000" />
+      <workItem from="1709088344287" duration="291000" />
+      <workItem from="1709088652253" duration="137000" />
+      <workItem from="1709491078265" duration="5482000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -263,11 +293,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705024229570</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added Projects in Projects.js and skills icons.">
+      <option name="closed" value="true" />
+      <created>1709085857511</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709085857511</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="package.json" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -285,6 +326,7 @@
     <MESSAGE value="Emailjs settings" />
     <MESSAGE value="Link added in Projects.js" />
     <MESSAGE value="Navbar.js hover fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar.js hover fix" />
+    <MESSAGE value="Added Projects in Projects.js and skills icons." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Projects in Projects.js and skills icons." />
   </component>
 </project>

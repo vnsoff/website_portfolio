@@ -90,7 +90,7 @@ const Projects = () => {
                                 {project.link && (
                                     <div className="mt-4">
                                         <a
-                                            href={project.source}
+                                            href={project.link}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-3 px-6 rounded-full flex items-center justify-center transform hover:scale-105 transition-transform"
