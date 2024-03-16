@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/website_portfolio/static/css/main.956cb25f.css",
-    "main.js": "/website_portfolio/static/js/main.8941ad60.js",
-    "static/media/img1.PNG": "/website_portfolio/static/media/img1.7417c85f34f3269fcd43.PNG",
-    "static/media/img2.PNG": "/website_portfolio/static/media/img2.9c2e094a87e6c803f865.PNG",
+    "main.css": "/website_portfolio/static/css/main.fa42ba0c.css",
+    "main.js": "/website_portfolio/static/js/main.ad0e2c12.js",
+    "static/media/img2-1.PNG": "/website_portfolio/static/media/img2-1.042ed44f8c137cecb0aa.PNG",
+    "static/media/img1-1.PNG": "/website_portfolio/static/media/img1-1.8fb75cbf99840f84efb2.PNG",
+    "static/media/img2-2.PNG": "/website_portfolio/static/media/img2-2.4d3daca0be49a0a96977.PNG",
+    "static/media/img1-2.PNG": "/website_portfolio/static/media/img1-2.e585a4f793032ce33ffc.PNG",
+    "static/media/img2-3.PNG": "/website_portfolio/static/media/img2-3.b2731a39b5ea15c54340.PNG",
+    "static/media/img2-4.PNG": "/website_portfolio/static/media/img2-4.205c59f95737b0c019ad.PNG",
+    "static/media/img1-3.PNG": "/website_portfolio/static/media/img1-3.6a41c4d4889b944d871d.PNG",
     "static/media/image-url.jpg": "/website_portfolio/static/media/image-url.0ac7e402a5999639e01e.jpg",
     "static/media/SpaceGrotesk-Regular.ttf": "/website_portfolio/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
     "static/media/SpaceGrotesk-Bold.ttf": "/website_portfolio/static/media/SpaceGrotesk-Bold.9ee2fc15497f7869312f.ttf",
+    "static/media/revicons.eot": "/website_portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/website_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/website_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/website_portfolio/index.html",
-    "main.956cb25f.css.map": "/website_portfolio/static/css/main.956cb25f.css.map",
-    "main.8941ad60.js.map": "/website_portfolio/static/js/main.8941ad60.js.map"
+    "main.fa42ba0c.css.map": "/website_portfolio/static/css/main.fa42ba0c.css.map",
+    "main.ad0e2c12.js.map": "/website_portfolio/static/js/main.ad0e2c12.js.map"
   },
   "entrypoints": [
-    "static/css/main.956cb25f.css",
-    "static/js/main.8941ad60.js"
+    "static/css/main.fa42ba0c.css",
+    "static/js/main.ad0e2c12.js"
   ]
 }
